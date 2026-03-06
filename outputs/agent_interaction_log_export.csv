@@ -1,0 +1,9 @@
+interaction_id,user_request_excerpt,agent_action_summary,verification_evidence,status
+I01,Read coursework brief PDF and align report to six-stage structure.,Extracted brief requirements and rebuilt report with required section sequence.,Revised report DOCX section headings (sections 1-6).,Completed
+I02,Use only real project evidence; no fabricated results.,Validated narrative against notebook outputs and exported metrics before edits.,outputs/validation_metrics.csv; outputs/test_metrics.csv.,Completed
+I03,Use Python screenshot style for tables instead of embedded tables.,Rendered table images with matplotlib and replaced table blocks in report.,figures/table_shots/table1/2/3_*.png.,Completed
+I04,Add table of contents and page numbering.,Inserted TOC field and PAGE/NUMPAGES footer fields in DOCX.,Revised report DOCX TOC and footer fields.,Completed
+I05,Remove AI mentions from main body and keep AI content in appendix only.,Rewrote sections 1-6 to remove AI wording; kept usage content in appendix.,Revised report DOCX body and appendix sections.,Completed
+I06,"Fill README.md, strengthen interaction-log appendix, add constraints and Harvard references.","Added main README, direct interaction-log export, and updated report text/references.",README.md; outputs/agent_interaction_log_export.csv.,Completed
+I07,"Tune ANN hyperparameters, remove RandomForest tuning, and optimize the main notebook.","Revised modelling cells: fixed RF/HGB references, ANN RandomizedSearchCV (TimeSeriesSplit), reran notebook, regenerated outputs.",PA_MachineLearning_BikeSharing.ipynb; outputs/ann_cv_top_results.csv; outputs/validation_metrics.csv,Completed
+I08,Update report model/evaluation sections and appendix evidence to match the new ANN workflow.,"Updated report sections 4-6 + appendix A4/A5, replaced table screenshots, and refreshed report table workbook.",PA-Coursework-文字-REVISED.docx; figures/table_shots/*.png; outputs/report_tables_black_header.xlsx,Completed

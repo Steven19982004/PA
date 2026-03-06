@@ -1,0 +1,19 @@
+{
+  "final_model_name": "HistGradientBoosting_Fixed",
+  "random_state": 42,
+  "data_path": "/Users/cai/Desktop/PA_coursework/Raw_Data/hour.csv",
+  "n_train": 8645,
+  "n_validation": 4358,
+  "n_test": 4376,
+  "test_MAE": 61.58397261450785,
+  "test_RMSE": 85.96112238238891,
+  "test_R2": 0.8468998698414715,
+  "final_learning_rate": 0.05,
+  "final_max_depth": null,
+  "final_max_iter": 400,
+  "final_max_leaf_nodes": 31,
+  "final_min_samples_leaf": 20,
+  "final_l2_regularization": 0.0,
+  "final_n_iter_no_change": 10,
+  "final_random_state": 42
+}

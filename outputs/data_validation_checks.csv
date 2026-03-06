@@ -1,0 +1,6 @@
+check,passed
+No leakage columns in train features,True
+No leakage columns in validation features,True
+No leakage columns in test features,True
+Chronological split boundaries valid,True
+Target has no missing values,True

@@ -1,0 +1,11 @@
+rank_test_score,mean_cv_RMSE,std_test_score,params
+1,63.23184133,10.01319667,"{'model__n_iter_no_change': 20, 'model__learning_rate_init': 0.003, 'model__hidden_layer_sizes': (64, 32), 'model__batch_size': 128, 'model__alpha': 0.0001, 'model__activation': 'relu'}"
+2,64.06919266,10.25106829,"{'model__n_iter_no_change': 10, 'model__learning_rate_init': 0.003, 'model__hidden_layer_sizes': (128, 64), 'model__batch_size': 256, 'model__alpha': 0.001, 'model__activation': 'relu'}"
+3,68.48429972,20.01707115,"{'model__n_iter_no_change': 20, 'model__learning_rate_init': 0.003, 'model__hidden_layer_sizes': (128,), 'model__batch_size': 256, 'model__alpha': 1e-05, 'model__activation': 'tanh'}"
+4,70.78325826,22.76863747,"{'model__n_iter_no_change': 10, 'model__learning_rate_init': 0.003, 'model__hidden_layer_sizes': (64,), 'model__batch_size': 256, 'model__alpha': 0.001, 'model__activation': 'tanh'}"
+5,71.11901187,25.19823054,"{'model__n_iter_no_change': 10, 'model__learning_rate_init': 0.003, 'model__hidden_layer_sizes': (128, 64, 32), 'model__batch_size': 128, 'model__alpha': 1e-05, 'model__activation': 'tanh'}"
+6,71.29797501,19.1209005,"{'model__n_iter_no_change': 20, 'model__learning_rate_init': 0.0003, 'model__hidden_layer_sizes': (64, 32), 'model__batch_size': 128, 'model__alpha': 0.0001, 'model__activation': 'relu'}"
+7,71.67605262,25.2095026,"{'model__n_iter_no_change': 10, 'model__learning_rate_init': 0.003, 'model__hidden_layer_sizes': (128, 64), 'model__batch_size': 128, 'model__alpha': 0.01, 'model__activation': 'tanh'}"
+8,76.41323284,19.53778202,"{'model__n_iter_no_change': 20, 'model__learning_rate_init': 0.001, 'model__hidden_layer_sizes': (128,), 'model__batch_size': 128, 'model__alpha': 1e-05, 'model__activation': 'relu'}"
+9,77.61586619,26.89564351,"{'model__n_iter_no_change': 20, 'model__learning_rate_init': 0.001, 'model__hidden_layer_sizes': (128,), 'model__batch_size': 256, 'model__alpha': 0.001, 'model__activation': 'tanh'}"
+10,94.15846137,33.94986894,"{'model__n_iter_no_change': 20, 'model__learning_rate_init': 0.001, 'model__hidden_layer_sizes': (64, 32), 'model__batch_size': 128, 'model__alpha': 0.001, 'model__activation': 'tanh'}"

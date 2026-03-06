@@ -1,0 +1,4 @@
+split,time_range_label,n_rows,start_time,end_time
+train,Jan 2011 - Dec 2011,8645,2011-01-01,2011-12-31 23:00:00
+validation,Jan 2012 - Jun 2012,4358,2012-01-01,2012-06-30 23:00:00
+test,Jul 2012 - Dec 2012,4376,2012-07-01,2012-12-31 23:00:00

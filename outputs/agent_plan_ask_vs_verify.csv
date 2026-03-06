@@ -1,0 +1,6 @@
+Workflow stage,Ask agent to do,What I verify myself,Evidence output
+Problem framing,"Draft initial problem statement, metrics shortlist, and constraint checklist",Confirm target/prediction type; keep metrics aligned with operational objective; remove unsupported claims,Report section 1 + outputs/test_metrics.csv
+EDA,Suggest concise plot set and initial interpretations,Validate each interpretation against computed summaries and figure outputs; reject unsupported inferences,figures/eda_*.png + notebook EDA cells
+Preparation,Propose preprocessing and split implementation,Enforce chronological split and leakage assertions; keep transformations inside pipeline only,outputs/split_audit.csv + outputs/data_validation_checks.csv
+Modelling,Suggest baseline and modern model candidates and search spaces,Run comparable experiments under TimeSeriesSplit; keep only evidence-backed models,outputs/validation_metrics.csv + outputs/*_cv_top_results.csv
+Evaluation,Suggest diagnostics for error analysis and failure modes,Confirm metrics from exported predictions and segmented analyses,outputs/test_metrics.csv + outputs/hourly_error_metrics.csv + outputs/error_*.csv

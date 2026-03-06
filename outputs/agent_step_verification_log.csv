@@ -1,0 +1,5 @@
+agent_suggestion,verification,decision
+Drop casual/registered leakage columns,Identity check casual + registered == cnt and column exclusion assertions,Accepted
+Use cyclical encoding for hr/mnth/weekday,"Ridge validation RMSE baseline=146.230, cyclical=169.431",Kept as tested alternative; not selected as best baseline
+Tune RandomForest and HistGradientBoosting,Rejected for this revision: kept as fixed references to isolate ANN tuning,Rejected
+Tune ANN with TimeSeriesSplit CV,RandomizedSearchCV best CV RMSE=63.232,Accepted
